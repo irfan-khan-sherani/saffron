@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s linear;    
+}
+body{
+    background-color: #fffbf8;
+}
+
+header{
+    background: url(images/zaffranblack.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+header .head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #00000047;
+    padding: 1vw;
+}
+header .head img{
+    width: 9vw;
+}
+header .head ol{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-right: 2vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .head ol li:hover>a{
+    color: rgba(252, 2, 2, 0.765);
+    
+}
+@media (max-width:500px) {
+
+    header .head img{
+        width: 25vw;
+        padding: 2vw;
+    }
+    header .head ol li{
+        display: none;
+    }
+    
+}
+header .head2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    flex:1;
+    height:max-content;
+    color: white;
+    gap: 1vw;
+    padding: 8vw;
+    border-left: 3px solid rgba(252, 2, 2, 0.473);
+    border-right: 3px solid rgba(252, 2, 2, 0.473);
+}
+header .head2 p{
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header .head2 h1{
+    font-size: 5rem;
+}
+header .head2 .demand{
+    border: 4px solid rgba(252, 2, 2, 0.473);
+    font-size: 1.2vw;
+    padding: 0.5vw 1vw;
+}
+button{
+    appearance: none;
+    border: none;
+    background: none;
+}
+header .head2 button{
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 500;
+    background: #0000009e;
+    padding: 0.5vw 1.5vw;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+header .head2 button:hover{
+    background:rgb(167, 2, 2);
+}
+header .head2 button:active{
+    background:rgb(167, 2, 2);
+}
+main{
+    padding: 2vw;
+}
+main .quality h1{
+    font-size: 3vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-left: rgb(167, 2, 2) 4px solid;
+    border-right: rgb(167, 2, 2) 4px solid;
+}
+main .quality h1:hover{
+    color:rgb(167, 2, 2);
+}
+main .quality .qualitycard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+main .quality .card{
+    width: 140px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+}
+main .quality .card:hover{
+    border-color: rgb(167, 2, 2) ;
+}
+main .quality .card img{
+    width: 55%;
+}
+main .quality .card h2{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+main .quality .card:hover h2{
+    color: rgb(167, 2, 2);
+}
+
+main .image{
+    margin-top: 2rem;
+    width: 100%;
+    background: url(images/top-view-saffron-still-life-assortment.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main .image img{
+width: 25%;
+/*background-color: rgba(0, 0, 0, 0.452);*/
+padding: 2rem;
+border-radius: 1rem;
+margin: 2rem 0;
+box-shadow: 0 0 30px black;
+}
+
+
+
+footer .first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2vw;
+    border-top: rgb(167, 2, 2) 3px solid;
+}
+footer .first img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(0%) hue-rotate(235deg) brightness(107%) contrast(107%);
+    width: 15%;
+}
+footer .copy{
+    background-color: rgba(0, 0, 0, 0.703);
+    padding: 1vw;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .usesaffron h1{
+    font-size: 3vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-left: rgb(167, 2, 2) 4px solid;
+    border-right: rgb(167, 2, 2) 4px solid;
+    margin-top: 2rem;
+}
+main .usesaffron h1:hover{
+    color: rgb(167, 2, 2);
+}
+main .usesaffron p{
+    margin-top: 2rem;
+    width: 50%;
+    font-size:1.5vw;
+    padding: 3rem;
+}
+main .usesaffron div{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+gap: 1vw;
+margin: 2rem 0;
+
+}
+main .usesaffron div .img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main .usesaffron div .img img{
+    width: 60%;
+}
+@media (max-width: 500px) {
+    header{
+        height: 60vh;
+    }
+    header .head2{
+        gap: 2vh;
+    }
+    header .head2 p{
+        font-size: 3vw;
+    }
+    header .head2 .demand{
+        font-size: 4vw;
+    }
+    header .head2 h1 {
+        font-size: 12vw;
+    }
+    header .head2 button{
+        font-size: 4.5vw;
+    }
+    main .quality h1{
+        margin: 3vw 5vw 0vw 5vw;
+        font-size: 5vw;
+    }
+    main .quality .card{
+    width: 100px;
+    height: 130px;
+    }
+    main .quality .card h2{
+    font-size: 0.8rem;
+    }
+    main .usesaffron div{
+    margin: 0 0 1rem 0;
+    }
+    main .usesaffron p{
+    padding: 1.5rem;
+    font-size: 2vw;
+    }
+    main .usesaffron div .img img{
+    width: 70%;
+    }
+}
